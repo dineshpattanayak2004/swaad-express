@@ -2,6 +2,7 @@
 // One line per dish. Fields: id, category, name, emoji (stands in for the photo), price.
 // RULE 1: every price is text that starts with the rupee sign, for example "₹249".
 // (CR1 later adds one more field to every dish: veg: true or veg: false.)
+// SWAAD EXPRESS MENU DATA
 const MENU = [
   { id: 1, category: "Thali", name: "Indori Veg Thali", emoji: "🍛", price: "₹249", veg: true },
   { id: 2, category: "Thali", name: "Maharaja Thali", emoji: "🍽️", price: "₹349", veg: true },
@@ -17,4 +18,5 @@ const MENU = [
   { id: 12, category: "Sweets & Drinks", name: "Masala Chaas", emoji: "🥛", price: "₹50", veg: true },
   { id: 13, category: "Thali", name: "Dal Bati Churma", emoji: "🍛", price: "₹299", veg: true }
 ];
+
 if (typeof module !== "undefined") module.exports = MENU;
